@@ -506,4 +506,35 @@ footer .social-links {
     line-height: 1.8rem;
     text-transform: uppercase;
   }
+
+  nav#navigation.scroll .menu ul li a {
+    color: var(--brand-light);
+    opacity: 0.6;
+  }
+
+  nav#navigation.scroll .menu a.button {
+    border-color: white;
+    color: white;
+  }
+
+  nav#navigation .menu li a:hover {
+    opacity: 1;
+    font-weight: 700;
+  }
+
+  nav#navigation .menu li a::after {
+    content: '';
+    width: 100%;
+    height: 2px;
+    background-color: var(--primary-color);
+    display: block;
+    position: relative;
+    bottom: -2rem;
+    left: -0.5rem;
+    padding-inline: 0.8rem;
+  }
+
+  nav#navigation.scroll .menu li a::after {
+    background-color: white;
+  }
 }
