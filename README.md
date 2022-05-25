@@ -3,7 +3,7 @@
 </p>
 
 <h1 align="center">
-	NLW Return Origin by Rockeseat
+	NLW Return Origin by Rocketseat
 </h1>
 
 <p align="center">Trilha Origin do Evento Next Level Week Return.</p>
